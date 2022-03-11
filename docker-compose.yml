@@ -1,0 +1,21 @@
+version: "3"
+services:
+
+  web:
+    build: 
+      context: ./
+      dockerfile: ./dockerfile1
+    ports:
+      - "3000:3000"
+    command: ["npm","run","start"]
+    depends_on:
+      - python
+
+  python :
+    build: 
+      context: ./backend
+      dockerfile: ./dockerfile2
+    ports :
+      - "8000:8000"
+    command: ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8000"]
+    

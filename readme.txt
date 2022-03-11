@@ -1,0 +1,4 @@
+- Se placer dans le répertoire test1
+- Executer la ligne de commande : docker compose build
+- Executer la ligne de commande : docker compose up
+- Se rendre à l'adresse : http://localhost:3000/ sur un navigateur internet

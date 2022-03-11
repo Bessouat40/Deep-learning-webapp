@@ -1,0 +1,8 @@
+.lmj-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(228, 226, 226);
+    justify-content: center;
+    background-color: rgb(86, 86, 102);
+  }

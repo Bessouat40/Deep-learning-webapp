@@ -1,0 +1,11 @@
+.upload {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.hidden-text {
+    justify-content: center;
+}
+
