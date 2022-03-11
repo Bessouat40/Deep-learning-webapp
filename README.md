@@ -4,4 +4,4 @@ Application web permettant l'utilisation d'un réseau de neurones pour prédire 
 
 # Visuel de l'application :
 
-![screenshot1](https://github.com/Bessouat40/Stage-4eme-annee/blob/main/Capture d’écran 2022-03-11 191633.PNG?raw=true)
+![screenshot1](https://github.com/Bessouat40/Stage-4eme-annee/blob/main/Capture.PNG?raw=true)
